@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 1ef7b7b1930d72749ad7e535e60c5ef6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - innerMazeWall: {fileID: 1306389416958184, guid: 50f36e6b4d8182e4ea4d82918ae5152a,
+      type: 2}
+  - forwardMazeWall: {fileID: 1429962774385706, guid: 0b65077245c44c147bd6e8faae4df777,
+      type: 2}
+  - mazeTrigger: {fileID: 1068732765346264, guid: 5a1cb25f49c3c604ab925c0ab623dac9,
+      type: 2}
+  - projectiles: {fileID: 1557139793253116, guid: 0bf160040830e9e46815eca7e07b7506,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,7 @@
+sceneSetups:
+- path: Assets/Scenes/SampleScene.unity
+  isLoaded: 1
+  isActive: 1
+- path: Assets/Scenes/EndGameScene.unity
+  isLoaded: 0
+  isActive: 0
