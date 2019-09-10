@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<scene ambient="0.2 0.2 0.2">
+  <!-- define camera,material,lights here -->
+  <light name="myLight" color="0.8 0.8 0.8" from="10 10 10 " power="1.0" type="point" />
+  <light name="myLight2" color="0.8 0.6 0.6" from="0 1 0" power="0.6" type="point" />
+  <material name="blue" diffuse="0 0 1" specular="0.5 0.5 0.5" hardness="16" />
+  <material name="red" diffuse="1 0 0" specular="0.5 0.5 0.5" hardness="16" />
+  <material name="green" diffuse="0 1 0" specular="0.5 0.5 0.5" hardness="16" />
+  
+  <!-- render configuration -->
+  <render bgcolor="0 0 0" output="Plane2.png" samples="1" >
+    <camera name="myCamera" from="0 2 10" to="0 0 -10" up="0 1 0" fovy="45" width="1024" height="768" />
+  </render> 
+  
+  <!-- scene objects -->
+  <plane >
+    <material ref="blue" />
+    <material2 ref="green" />
+  </plane>  
+  <sphere center="0 0 0" radius="0.1" >
+    <material ref="red" />
+  </sphere>
+  <sphere center="1 0 1" radius="0.1" >
+    <material ref="red" />
+  </sphere>
+
+</scene>

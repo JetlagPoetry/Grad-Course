@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<scene ambient="0.1 0.1 0.1 1.0">
+  
+  <light name="myLight" color="1 1 1" from="-3 10 1 " power="0.5" type="point" />
+  <light name="myLight2" color="1 1 1" from="3 10 1 " power="0.5" type="point" />
+  <llight name="myLight3" color="1 1 1" from="0 -5 0 " power="10.0" type="point" />
+
+  <material name="blue" diffuse="0 0 1" specular="0.5 0.5 0.5" hardness="16" />
+  <material name="red" diffuse="1 0 0" specular="0.5 0.5 0.5" hardness="16" />
+  <material name="green" diffuse="0 1 0" specular="0.5 0.5 0.5" hardness="16" />
+  
+  <!-- render configuration -->
+  <render bgcolor="0 0 0" output="TorusMesh.png" >
+      <camera name="myCamera" from="0 4 4" to="0 0 0" up="0 1 0" fovy="45" width="256" height="256" />
+  </render> 
+  
+  <node name="root" >
+    <mesh name="myTorus" filename="a4data/torus.obj" >
+      <material ref="red" />
+    </mesh>
+  </node>
+  <node name="plane" translation="0 -1 0">
+  	<plane>
+      <material ref="blue" />
+      <material2 ref="green" />
+    </plane>
+  </node>    
+ 
+</scene>

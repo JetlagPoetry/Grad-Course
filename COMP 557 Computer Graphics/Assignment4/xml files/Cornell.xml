@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<scene ambient="0.2 0.2 0.2" >
+  <!-- define camera,material,lights here -->
+  <light name="myLight" color="1.0 1.0 1.0" from="0.0 2.5 0.0" power="0.9" type="point" />
+  <material name="red" diffuse="0.6 0 0" specular="0 0 0" hardness="0" />
+  <material name="blue" diffuse="0 0 0.6" specular="0 0 0" hardness="0" />
+  <material name="green" diffuse="0 0.6 0" specular="0 0 0" hardness="0" />
+  <material name="grey" diffuse="0.56 0.52 0.5" specular="0 0 0" hardness="0" />
+  <material name="white" diffuse="0.9 0.9 0.9" specular="0 0 0" hardness="0" />
+  
+  <!-- render configuration -->
+  <render bgcolor="0 0 0" output="Cornell.png" samples="4">
+    <camera name="myCamera" from="0 1.5 5" to="0 1.5 -5" up="0 1 0" fovy="45" width="512" height="512" />
+  </render> 
+  
+  <!-- scene objects -->
+  <node name="root" >  
+	  <!-- left -->
+	  <node name="leftWall" rotation="0 0 -90" translation="-2 0 0" >
+	    <plane>
+		  <material ref="red" />
+	    </plane>
+	  </node>
+	  <!-- right -->
+	  <node name="rightWall" rotation="0 0 90" translation="2 0 0" >
+	    <plane>
+		  <material ref="green" />
+	    </plane>
+	  </node>
+	  
+	  <!-- bottom -->
+	  <node name="floor" rotation="0 0 0" translation="0 0 0" >
+	    <plane>
+		  <material ref="white" />
+	    </plane>
+       </node>
+	   
+	  <!-- top -->
+	  <node name="ceiling" rotation="0 0 180" translation="0 3 0" >
+	    <plane >
+		  <material ref="white" />
+	    </plane>
+	  </node>
+	  
+	  <!-- back -->
+	  <node name="backWall" rotation="90 0 0" translation="0 0 -4" >
+	    <plane coeffs="0 0 1 4" >
+		  <material ref="white" />
+	    </plane>
+	  </node>
+	  
+	  <node name="boxNode" rotation="0 -45 0" translation="-0.5 0 -1">
+	  <box min="-0.5 0 -0.5" max="0.5 2 0.5" >
+		<material ref="grey" />
+	  </box>
+	  </node> 
+	  
+	  <sphere center="0.6 0.5 0.5" radius="0.5" >
+		<material ref="grey" />
+	  </sphere>
+  </node>
+    
+</scene>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<scene ambient="0.1 0.1 0.1 1.0">
+  <!-- define camera,material,lights here -->
+  <light name="myLight" color="1 1 1" from="0 5 5" power="1.0" type="point" />
+  <material name="red" diffuse="1 0 0" specular="0.8 0.8 0.8" hardness="32" />
+  
+  <!-- render configuration -->
+  <render bgcolor="0 0 0" output="Sphere.png">
+      <camera name="myCamera" from="0 0 8" to="0 0 0" up="0 1 0" fovy="45" width="512" height="512" />
+  </render> 
+  
+  <!-- scene objects -->
+  <sphere center="0 0 0" radius="1.0" >
+    <material ref="red" />
+  </sphere>
+  
+</scene>

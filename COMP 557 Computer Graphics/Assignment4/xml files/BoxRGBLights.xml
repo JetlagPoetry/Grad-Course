@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<scene ambient="0.1 0.1 0.1" >
+  <!-- define camera,material,lights here -->
+  <light name="myLight1" color="1 0.0 0.0" from="0 4 0" power="0.8" type="point" />
+  <light name="myLight3" color="0.0 0.0 1" from="4 0 0" power="0.8" type="point" />
+  <light name="myLight4" color="0.0 1 0.0" from="0 0 4" power="0.8" type="point" />
+  <material name="white" diffuse="1 1 1" specular="0 0 0" hardness="0" />
+  
+  <!-- render configuration -->
+  <render bgcolor="1 1 1" output="BoxRGBLights.png">
+    <camera name="myCamera" from="3 3 3" to="0 0 0" up="0 1 0" fovy="45" width="512" height="512" />
+  </render> 
+  
+  <!-- scene objects -->
+  <box min="-1 -1 -1" max="1 1 1" >
+    <material ref="white" />
+  </box>
+  
+</scene>
