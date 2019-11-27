@@ -388,6 +388,7 @@ public class Scene {
 	        int sampleCountH = (int) Math.sqrt(render.samples),
 	        		sampleCountW = render.samples/sampleCountH;
 	        
+	        blurSamples = blur?10:1;
 	        for ( int i = upperHeight; i < lowerHeight && !render.isDone(); i++ ) {
 	            for ( int j = 0; j < w && !render.isDone(); j++ ) {
 	            	// TODO: Objective 8: do antialiasing by sampling more than one ray per pixel
