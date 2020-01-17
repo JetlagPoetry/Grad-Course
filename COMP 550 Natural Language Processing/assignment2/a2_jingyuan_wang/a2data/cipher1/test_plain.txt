@@ -1,0 +1,9 @@
+a hidden markov model is one in which you observe a sequence of emissions, but do not know the sequence of states the model went through to generate the emissions.
+analyses of hidden markov models seek to recover the sequence of states from the observed data.
+you determine the emission from a state by rolling the die with the same color as the state. you determine the transition to the next state by flipping the coin with the same color as the state.
+the following takes the emission and state sequences and returns estimates of the transition and emission matrices.
+jamaica is an island country situated in the caribbean sea, consisting of the third largest island of the greater antilles.
+jamaica is the fourth largest island country in the caribbean, by area.
+the planned route for the caisse de depots light rail system for montreal and suburbs will require the expropriation of up to thirty homes.
+two buildings that had been earmarked for possible expropriation, namely the rodier building and the building that house the new city gas club, will be preserved.
+dinu bumbaru of heritage montreal was pleased to hear the historic structures would be saved.

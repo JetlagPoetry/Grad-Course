@@ -1,0 +1,30 @@
+Depth: Was there enough work?
+3: Excellent depth; there was more work than in most submissions	
+2: Good depth; there was a sufficient amount of work	
+1: Okay, but there could have been more content	
+
+Justification: Was the hypothesis clear? Is the work situated with respect to previous work?	
+3: Excellent justification. I understood the hypothesis and how it relates to class material	
+2: Good justification. I had to think about it to understand how this relates	
+1: Justification or hypothesis was not clear	
+
+Correctness: Was the hypothesis tested correctly by an experiment or an analysis?	
+3: Sound. This work was correctly evaluated and convincing	
+2: Good. I have some minor quibbles about the evaluation, but it was good overall	
+1: It was not clear what the evaluation/analysis was, or how it relates to the hypothesis	
+
+Quality of report: Was the report well written, well structured, and using the correct style?	
+3: Excellent quality. Very easy to understand	
+2: Good quality. Easy to understand, with a bit of work	
+1: Quality could have been improved	
+	
+
+Attribution: Were relevant sources cited?	(y/n)
+
+Length: Indicate here if the report was under or over the page limit.	
+	
+Evaluation comments:	
+
+Final grade:	
+	
+	

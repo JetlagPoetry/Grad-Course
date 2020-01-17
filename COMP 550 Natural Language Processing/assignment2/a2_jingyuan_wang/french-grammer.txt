@@ -1,0 +1,55 @@
+//non-terminals
+S -> SJ-1sg V-1sg OJ | SJ-1p V-1p OJ | SJ-2sg V-2sg OJ | SJ-2p V-2p OJ | SJ-3sg V-3sg OJ | SJ-3p V-3p OJ | SJ-1sg DO V-1sg | SJ-1p DO V-1p | SJ-2sg DO V-2sg | SJ-2p DO V-2p | SJ-3sg DO V-3sg | SJ-3p PR V-3p O
+SJ-1sg -> PR-1sg
+SJ-1p -> PR-1p
+SJ-2sg -> PR-2sg
+SJ-2p -> PR-2p
+SJ-3sg -> NP-sg | PN-sg | PR-3sg
+SJ-3p -> NP-p | PN-p | PR-3p
+OJ -> NP | PN
+DO -> PR | DT 
+NP-sg -> DT-sg-m N-sg-m | DT-sg-f N-sg-f | DT-sg-m A-sg-m-pre N-sg-m | DT-sg-f A-sg-f-pre N-sg-f | DT-sg-m N-sg-m A-sg-m-fol | DT-sg-f N-sg-f A-sg-f-fol | DT-sg-m A-sg-m-all N-sg-m | DT-sg-f A-sg-f-all N-sg-f | DT-sg-m N-sg-m A-sg-m-all | DT-sg-f N-sg-f A-sg-f-all 
+NP-p -> DT-p N-p-m | DT-p N-p-f | DT-p A-p-m-pre N-p-m | DT-p A-p-f-pre N-p-f | DT-p N-p-m A-p-m-fol | DT-p N-p-f A-p-f-fol | DT-p A-p-m-all N-p-m | DT-p A-p-f-all N-p-f | DT-p N-p-m A-p-m-all | DT-p N-p-f A-p-f-all 
+PR -> PR-1sg | PR-1p | PR-2sg | PR-2p | PR-3sg | PR-3p
+NP -> NP-sg | NP-p
+N -> N-sg-m | N-sg-f | N-p-m | N-p-f
+V -> V-1sg | V-1p | V-2sg | V-2p | V-3sg | V-3p
+A -> A-sg-m-pre | A-sg-f-pre | A-sg-m-fol | A-sg-f-fol | A-sg-m-all | A-sg-f-all | A-p-m-pre | A-p-f-pre | A-p-m-fol | A-p-f-fol | A-p-m-all | A-p-f-all
+DT -> DT-sg-m | DT-sg-f | DT-p
+PN -> PN-sg | PN-p
+VP -> V OJ
+
+//terminals
+PN-sg -> jonathan | montr¨¦al | canada
+PN-p -> ¨¦tats unis | the smiths
+PR-1sg -> je
+PR-1p -> nous
+PR-2sg -> tu
+PR-2p -> vous
+PR-3sg -> il | elle 
+PR-3p -> ils | elles 
+V-1sg -> mange | aime | regarde | cherche
+V-1p -> mangeons | aimons | regardons | cherchons
+V-2sg -> manges | aimes | regardes | cherches
+V-2p -> mangez | aimez | regardez | cherchez
+V-3sg -> mange | aime | regarde | cherche
+V-3p -> mangent | aiment | regardent | cherchent
+DT-sg-m -> le | un
+DT-sg-m -> la | une
+DT-p -> les | des
+N-sg-m -> chat | poisson | haricot
+N-sg-f -> semaine | t¨¦l¨¦vision | porte 
+N-p-m -> chats | poissons | haricots
+N-p-f -> t¨¦l¨¦visions | semaines | portes
+A-sg-m-pre -> beau | joli | bon 
+A-sg-f-pre -> belle | jolie | bonne
+A-p-m-pre -> beaux | jolis | bons
+A-p-f-pre -> belles | jolies | bonnes
+A-sg-m-fol -> noir | heureux | sucr¨¦
+A-sg-f-fol -> noire | heureuse | sucr¨¦e
+A-p-m-fol -> noirs | heureux | sucr¨¦s
+A-p-f-fol -> noires | heureuses | sucr¨¦es
+A-sg-m-all -> dernier | grand | triste
+A-sg-f-all -> derni¨¨re | grande | triste
+A-p-m-all -> derniers | grands | tristes
+A-p-f-all -> derni¨¨res | grandes | tristes

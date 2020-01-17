@@ -1,0 +1,200 @@
+contig0	ena	CDS	1000	1488	.	+	0	foo
+###
+contig0	ena	CDS	2000	2548	.	+	0	foo
+###
+contig0	ena	CDS	3000	3473	.	+	0	foo
+###
+contig0	ena	CDS	4000	4440	.	+	0	foo
+###
+contig0	ena	CDS	5000	5380	.	+	0	foo
+###
+contig0	ena	CDS	6000	6542	.	+	0	foo
+###
+contig0	ena	CDS	7000	7596	.	+	0	foo
+###
+contig0	ena	CDS	8000	8482	.	+	0	foo
+###
+contig0	ena	CDS	9000	9359	.	+	0	foo
+###
+contig0	ena	CDS	10000	10551	.	+	0	foo
+###
+contig0	ena	CDS	11000	11344	.	+	0	foo
+###
+contig0	ena	CDS	12000	12578	.	+	0	foo
+###
+contig0	ena	CDS	13000	13359	.	+	0	foo
+###
+contig0	ena	CDS	14000	14440	.	+	0	foo
+###
+contig0	ena	CDS	15000	15317	.	+	0	foo
+###
+contig0	ena	CDS	16000	16386	.	+	0	foo
+###
+contig0	ena	CDS	17000	17533	.	+	0	foo
+###
+contig0	ena	CDS	18000	18410	.	+	0	foo
+###
+contig0	ena	CDS	19000	19485	.	+	0	foo
+###
+contig0	ena	CDS	20000	20557	.	+	0	foo
+###
+contig0	ena	CDS	21000	21350	.	+	0	foo
+###
+contig0	ena	CDS	22000	22566	.	+	0	foo
+###
+contig0	ena	CDS	23000	23326	.	+	0	foo
+###
+contig0	ena	CDS	24000	24500	.	+	0	foo
+###
+contig0	ena	CDS	25000	25347	.	+	0	foo
+###
+contig0	ena	CDS	26000	26449	.	+	0	foo
+###
+contig0	ena	CDS	27000	27380	.	+	0	foo
+###
+contig0	ena	CDS	28000	28320	.	+	0	foo
+###
+contig0	ena	CDS	29000	29329	.	+	0	foo
+###
+contig0	ena	CDS	30000	30392	.	+	0	foo
+###
+contig0	ena	CDS	31000	31428	.	+	0	foo
+###
+contig0	ena	CDS	32000	32326	.	+	0	foo
+###
+contig0	ena	CDS	33000	33392	.	+	0	foo
+###
+contig0	ena	CDS	34000	34452	.	+	0	foo
+###
+contig0	ena	CDS	35000	35377	.	+	0	foo
+###
+contig0	ena	CDS	36000	36389	.	+	0	foo
+###
+contig0	ena	CDS	37000	37575	.	+	0	foo
+###
+contig0	ena	CDS	38000	38470	.	+	0	foo
+###
+contig0	ena	CDS	39000	39539	.	+	0	foo
+###
+contig0	ena	CDS	40000	40530	.	+	0	foo
+###
+contig0	ena	CDS	41000	41305	.	+	0	foo
+###
+contig0	ena	CDS	42000	42347	.	+	0	foo
+###
+contig0	ena	CDS	43000	43317	.	+	0	foo
+###
+contig0	ena	CDS	44000	44434	.	+	0	foo
+###
+contig0	ena	CDS	45000	45470	.	+	0	foo
+###
+contig0	ena	CDS	46000	46572	.	+	0	foo
+###
+contig0	ena	CDS	47000	47506	.	+	0	foo
+###
+contig0	ena	CDS	48000	48578	.	+	0	foo
+###
+contig0	ena	CDS	49000	49449	.	+	0	foo
+###
+contig0	ena	CDS	50000	50440	.	+	0	foo
+###
+contig0	ena	CDS	51000	51467	.	+	0	foo
+###
+contig0	ena	CDS	52000	52461	.	+	0	foo
+###
+contig0	ena	CDS	53000	53326	.	+	0	foo
+###
+contig0	ena	CDS	54000	54386	.	+	0	foo
+###
+contig0	ena	CDS	55000	55530	.	+	0	foo
+###
+contig0	ena	CDS	56000	56401	.	+	0	foo
+###
+contig0	ena	CDS	57000	57554	.	+	0	foo
+###
+contig0	ena	CDS	58000	58440	.	+	0	foo
+###
+contig0	ena	CDS	59000	59302	.	+	0	foo
+###
+contig0	ena	CDS	60000	60347	.	+	0	foo
+###
+contig0	ena	CDS	61000	61356	.	+	0	foo
+###
+contig0	ena	CDS	62000	62566	.	+	0	foo
+###
+contig0	ena	CDS	63000	63353	.	+	0	foo
+###
+contig0	ena	CDS	64000	64518	.	+	0	foo
+###
+contig0	ena	CDS	65000	65368	.	+	0	foo
+###
+contig0	ena	CDS	66000	66545	.	+	0	foo
+###
+contig0	ena	CDS	67000	67335	.	+	0	foo
+###
+contig0	ena	CDS	68000	68512	.	+	0	foo
+###
+contig0	ena	CDS	69000	69344	.	+	0	foo
+###
+contig0	ena	CDS	70000	70530	.	+	0	foo
+###
+contig0	ena	CDS	71000	71446	.	+	0	foo
+###
+contig0	ena	CDS	72000	72323	.	+	0	foo
+###
+contig0	ena	CDS	73000	73344	.	+	0	foo
+###
+contig0	ena	CDS	74000	74389	.	+	0	foo
+###
+contig0	ena	CDS	75000	75362	.	+	0	foo
+###
+contig0	ena	CDS	76000	76539	.	+	0	foo
+###
+contig0	ena	CDS	77000	77308	.	+	0	foo
+###
+contig0	ena	CDS	78000	78515	.	+	0	foo
+###
+contig0	ena	CDS	79000	79389	.	+	0	foo
+###
+contig0	ena	CDS	80000	80506	.	+	0	foo
+###
+contig0	ena	CDS	81000	81479	.	+	0	foo
+###
+contig0	ena	CDS	82000	82332	.	+	0	foo
+###
+contig0	ena	CDS	83000	83569	.	+	0	foo
+###
+contig0	ena	CDS	84000	84488	.	+	0	foo
+###
+contig0	ena	CDS	85000	85338	.	+	0	foo
+###
+contig0	ena	CDS	86000	86530	.	+	0	foo
+###
+contig0	ena	CDS	87000	87485	.	+	0	foo
+###
+contig0	ena	CDS	88000	88527	.	+	0	foo
+###
+contig0	ena	CDS	89000	89437	.	+	0	foo
+###
+contig0	ena	CDS	90000	90407	.	+	0	foo
+###
+contig0	ena	CDS	91000	91476	.	+	0	foo
+###
+contig0	ena	CDS	92000	92461	.	+	0	foo
+###
+contig0	ena	CDS	93000	93593	.	+	0	foo
+###
+contig0	ena	CDS	94000	94575	.	+	0	foo
+###
+contig0	ena	CDS	95000	95524	.	+	0	foo
+###
+contig0	ena	CDS	96000	96584	.	+	0	foo
+###
+contig0	ena	CDS	97000	97500	.	+	0	foo
+###
+contig0	ena	CDS	98000	98413	.	+	0	foo
+###
+contig0	ena	CDS	99000	99512	.	+	0	foo
+###
+contig0	ena	CDS	100000	100545	.	+	0	foo
+###
